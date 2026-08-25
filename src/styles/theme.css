@@ -1,0 +1,22 @@
+:root {
+  --bg: #f3f3f3;
+  --surface: #ffffff;
+  --surface2: #fafafa;
+  --border: #e5e5e5;
+  --border2: #d1d1d1;
+  --accent: #0078d4;
+  --accent-hover: #106ebe;
+  --accent-pressed: #005a9e;
+  --accent-soft: #e5f1fb;
+  --accent-border: #c7e0f4;
+  --text: #1b1b1b;
+  --text2: #5c5c5c;
+  --text3: #8a8a8a;
+  --danger: #c42b1c;
+  --danger-soft: #fdf3f2;
+  --success: #107c10;
+
+  --r-sm: 4px;
+  --r-md: 6px;
+  --r-lg: 8px;
+}

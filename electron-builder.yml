@@ -1,0 +1,18 @@
+appId: com.gamehub.app
+productName: GameHub
+directories:
+  output: dist-electron-build
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - package.json
+win:
+  icon: assets/icon.ico
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
