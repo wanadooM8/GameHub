@@ -12,8 +12,8 @@ function StarIcon({ filled, size }: { filled: boolean; size: number }) {
     <svg width={size} height={size} viewBox="0 0 16 16" fill="none">
       <path
         d="M8 1.5L9.9 5.4L14.2 6L11.1 9L11.8 13.3L8 11.3L4.2 13.3L4.9 9L1.8 6L6.1 5.4L8 1.5Z"
-        fill={filled ? '#FFB900' : 'none'}
-        stroke={filled ? '#FFB900' : '#C7C7C7'}
+        fill={filled ? '#D9A441' : 'none'}
+        stroke={filled ? '#D9A441' : '#CBBB98'}
         strokeWidth="1.1"
         strokeLinejoin="round"
       />

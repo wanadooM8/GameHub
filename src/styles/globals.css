@@ -18,7 +18,8 @@ body,
 }
 
 body {
-  background: var(--bg);
+  /* légère lumière naturelle depuis le coin haut-gauche, plutôt qu'un aplat gris */
+  background: radial-gradient(120% 120% at 12% -10%, #faf6ea 0%, var(--bg) 55%, #eee2c8 100%) fixed;
   color: var(--text);
   font-family: 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;
   overflow: hidden;

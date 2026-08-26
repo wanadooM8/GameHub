@@ -102,7 +102,7 @@ export default function Toolbar() {
           onClick={() => setViewMode('grid')}
           aria-label="Vue grille"
           className={`flex h-7 w-7 items-center justify-center rounded-sm ${
-            viewMode === 'grid' ? 'bg-surface text-accent shadow-sm' : 'text-text3 hover:text-text'
+            viewMode === 'grid' ? 'bg-surface text-accent shadow-soft' : 'text-text3 hover:text-text'
           }`}
         >
           <GridIcon />
@@ -111,7 +111,7 @@ export default function Toolbar() {
           onClick={() => setViewMode('list')}
           aria-label="Vue liste"
           className={`flex h-7 w-7 items-center justify-center rounded-sm ${
-            viewMode === 'list' ? 'bg-surface text-accent shadow-sm' : 'text-text3 hover:text-text'
+            viewMode === 'list' ? 'bg-surface text-accent shadow-soft' : 'text-text3 hover:text-text'
           }`}
         >
           <ListIcon />

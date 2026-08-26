@@ -56,7 +56,7 @@ export default function EditGameDialog({ game, onClose }: EditGameDialogProps) {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/25" onClick={onClose}>
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-[400px] rounded-lg border border-border bg-surface p-5 shadow-xl"
+        className="w-[400px] rounded-lg border border-border bg-surface p-5 shadow-soft-xl"
       >
         <h3 className="mb-4 text-[15px] font-semibold text-text">Edit game</h3>
 

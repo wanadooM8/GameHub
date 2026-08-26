@@ -125,13 +125,10 @@ export default function Sidebar() {
       <div className="flex-1" />
 
       {runningGame && (
-        <div className="rounded-md border border-accent-border bg-accent-soft px-2.5 py-2">
+        <div className="rounded-md border border-success-border bg-success-soft px-2.5 py-2">
           <div className="mb-1 flex items-center gap-1.5">
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
-            </span>
-            <span className="text-[11px] font-semibold text-accent-pressed">Running</span>
+            <span className="h-1.5 w-1.5 rounded-full bg-success" />
+            <span className="text-[11px] font-semibold text-success">Running</span>
           </div>
           <div className="truncate text-[13px] font-medium text-text">{runningGame.name}</div>
         </div>

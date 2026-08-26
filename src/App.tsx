@@ -96,7 +96,7 @@ export default function App() {
 
       {toast && (
         <div className="pointer-events-none fixed bottom-6 left-1/2 z-50 -translate-x-1/2">
-          <div className="rounded-md border border-border bg-surface px-4 py-2 text-[13px] font-medium text-text shadow-lg">
+          <div className="rounded-md border border-border bg-surface px-4 py-2 text-[13px] font-medium text-text shadow-soft-lg">
             {toast}
           </div>
         </div>

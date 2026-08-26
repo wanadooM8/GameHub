@@ -27,7 +27,7 @@ export default function GameCard({ game, selected, onSelect }: GameCardProps) {
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') onSelect()
       }}
-      className={`group flex aspect-[3/4] cursor-pointer flex-col overflow-hidden rounded-lg border bg-surface text-left shadow-sm transition-shadow hover:shadow-md ${
+      className={`group flex aspect-[3/4] cursor-pointer flex-col overflow-hidden rounded-lg border bg-surface text-left shadow-soft transition-shadow hover:shadow-soft-md ${
         selected ? 'border-accent ring-1 ring-accent' : 'border-border'
       }`}
     >
@@ -62,7 +62,7 @@ export default function GameCard({ game, selected, onSelect }: GameCardProps) {
         <div className="min-w-0 flex-1 truncate text-[12px] font-medium text-text">{game.name}</div>
         {game.rating > 0 && (
           <div className="flex shrink-0 items-center gap-0.5 text-[10px] font-semibold text-text2">
-            <svg width="10" height="10" viewBox="0 0 16 16" fill="#FFB900">
+            <svg width="10" height="10" viewBox="0 0 16 16" fill="#D9A441">
               <path d="M8 1.5L9.9 5.4L14.2 6L11.1 9L11.8 13.3L8 11.3L4.2 13.3L4.9 9L1.8 6L6.1 5.4L8 1.5Z" />
             </svg>
             {game.rating}

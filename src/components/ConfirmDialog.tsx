@@ -11,7 +11,7 @@ export default function ConfirmDialog({ title, message, confirmLabel, onConfirm,
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/25" onClick={onCancel}>
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-[320px] rounded-lg border border-border bg-surface p-5 shadow-xl"
+        className="w-[320px] rounded-lg border border-border bg-surface p-5 shadow-soft-xl"
       >
         <h3 className="mb-2 text-[15px] font-semibold text-text">{title}</h3>
         <p className="mb-5 text-[13px] leading-relaxed text-text2">{message}</p>
