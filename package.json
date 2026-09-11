@@ -1,7 +1,7 @@
 {
   "name": "gamehub",
   "productName": "GameHub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Launcher de jeux PC Windows — style Windows 11 clair",
   "author": "Bernier Ethan",
   "main": "dist-electron/main.js",
